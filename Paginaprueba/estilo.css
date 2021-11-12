@@ -1,0 +1,20 @@
+body {
+  background-color: aqua;
+    }
+
+p {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid red;
+  }
+
+span > a {
+  color: #AA7339;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+span > a > h1 {
+background-color: gold;
+}

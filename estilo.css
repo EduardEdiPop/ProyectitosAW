@@ -1,0 +1,22 @@
+@font-face{
+  font-family:"04b";
+  src: url("./fuentes/04B_30__.TTF");
+}
+body{
+  text-align: center;
+  background: url(gif.gif);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 20pt;
+}
+h1 {
+  font-family: "04b";
+  animation-iteration-count: infinite;
+  font-size: 25px;
+}
+a {
+  font-family: "04b";
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "rocky age";
+  src: url("./Rocky Age.ttf");
+}
+html{
+  background-color: #646464;
+  text-align: center;
+}
+img{
+  width: 550px;
+  height: 350px;
+}
+h1{
+  font-size: 100px;
+  color: yellow;
+  font-family: "rocky age";
+}
+div.comprahora {
+  font-size: 30px;
+  width: 15%;
+  margin: auto;
+  border-bottom: 200px;
+  margin-bottom: 600px;
+  background-color: red;
+  animation-name: vibracion;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes vibracion {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: orange;}
+  100% {background-color: blue;}
+  0%  { -webkit-transform:rotateZ(-10deg); }
+  50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+  100%{ -webkit-transform:rotateZ( 10deg); }
+}
+a{
+  text-decoration: none;
+}
+:visited{
+  color: white;
+}
+p{
+  font-size: 20px;
+  color: yellow;
+}

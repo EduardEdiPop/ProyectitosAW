@@ -1,0 +1,28 @@
+@font-face {
+  font-family:"Western Dead";
+  src: url("./fuentes/Western Dead.ttf");
+}
+@font-face {
+  font-family: "Go 2 Old Western";
+  src: url("./fuentes/Go 2 Old Western.otf");
+}
+p {
+  font-family:"Western Dead";
+  font-size: 450%;
+}
+body{
+  background-image: url(./fotos/madera.jpg);
+}
+p#segundoparrafo , p#tercerparrafo {
+  font-family:"Go 2 Old Western";
+  font-size: 400%;
+}
+table,th,td{
+  border: 7px solid #6E2C00;
+  border-collapse: collapse;
+  text-align: center;
+}
+div.centrar table{
+  margin: auto;
+  text-align: center;
+}
