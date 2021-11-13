@@ -3,6 +3,10 @@
   font-family: "Disko";
   src:url("./Disko_OT.otf");
 }
+@font-face {
+  font-family: "Trailer Park Girl";
+  src: url("./Trailer Park Girl.otf");
+}
 *{
   text-align: center;
   color: white;
@@ -12,7 +16,7 @@ body{
   background-repeat: no-repeat;
 }
 h2 {
-  font-family: "Disko";
+  font-family: "Trailer Park Girl";
   font-size: 70px;
   text-align: center;
   font-size: 72px;
@@ -29,7 +33,7 @@ h2 {
   border-style: solid;
   border-color: #FB00FF #00E8FF #00E8FF #FB00FF;
   border-width: 3px;
-  top: 200px;
+  top: 275px;
   background-color: transparent;
   font-family: "Disko";
   font-size: 30px;
@@ -48,7 +52,7 @@ div{
   border-style: solid;
   border-color: #00E8FF #FB00FF #FB00FF #00E8FF;
   border-width: 3px;
-  top: 200px;
+  top: 275px;
   background-color: transparent;
   font-family: "Disko";
   font-size: 17px;
@@ -69,6 +73,32 @@ font-family: "Disko";
 input[type=submit]:hover {
 background-color:#00E8FF;
 }
-input[type=text]{
+input[type=text], input[type=date]{
   color: black;
+}
+.personales{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: absolute;
+  width: 400px;
+  left: 100px;
+  top: 200px;
+  font-family: "Disko";
+  background-color: transparent;
+  font-size: 35px;
+}
+.artistico{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: absolute;
+  width: 400px;
+  right: 100px;
+  top: 200px;
+  font-family: "Disko";
+  background-color: transparent;
+  font-size: 35px;
 }
