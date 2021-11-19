@@ -21,7 +21,7 @@
    $actual .= $_POST['apellido']."\n";
    $actual .= $_POST['apodo']."\n";
    $actual .= $_POST['fecha-nacimiento']."\n";
-   $actual .= $_POST['color']."\n";
+   $actual .= $_POST ['color']."\n";
    $actual .= $_POST['nota']."\n";
    $actual .= $_POST['zodiaco']."\n \n";
    // Escribe el contenido al fichero
