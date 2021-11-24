@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "SuperMarioBros.";
+  src:url("./SuperMarioBros..ttf");
+}
+body{
+  text-align: center;
+}
+.derecha{
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  background: lightgreen;
+}
+img{
+  padding: 15px;
+}
+.central{
+  top: 0px;
+  left: 0px;
+  position:absolute;
+  height: 100%;
+  width: 1548px;
+  background: lightblue;
+  font-family: "SuperMarioBros.";
+}
+input[type=submit]:hover {
+background-color:blue;
+}
+.formulario{
+  position: absolute;
+  top: 150px;
+  left: 370px;
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  border-style: solid;
+  border-color: #00E8FF;
+  border-width: 3px;
+}
+h1{
+  padding: 15px;
+  font-size: 45px;
+}
+h2{
+  font-size: 30px;
+}
+input[type=submit] {
+  margin: 15px;
+  width: 100px;
+  height: 50px;
+  font-family: "SuperMarioBros.";
+}
+select{
+  width: 100px;
+  height: 25px;
+}
+.terminado{
+  font-size: 75px;
+}
+a{
+  font-size: 30px;
+}
